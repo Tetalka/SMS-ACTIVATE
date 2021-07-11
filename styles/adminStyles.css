@@ -1,0 +1,98 @@
+.btn-edit {
+    width: auto;
+    margin-left: 0.5rem;
+}
+.countries-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.editable-field {
+    border: 1px solid gray;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    width: 100%;
+    position: relative;
+}
+.country {
+    width: 45%;
+}
+.service {
+    border: none;
+}
+.editable-value {
+    margin-right: 40px;
+    word-wrap: anywhere;
+}
+.editable-field-button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    margin-right: 0.1rem;
+}
+.table td .editable-field-button {
+    position: static;
+    transform: none;
+    margin-right: 0.5rem;
+}
+.buttons-row {
+    display: flex;
+    justify-content: flex-end;
+}
+.services-edit {
+    max-width: 1000px;
+}
+table {
+    table-layout: fixed;
+}
+.table tr {
+    transition: background-color 150ms 0ms;
+}
+.table th, .table .table-header {
+    vertical-align: middle;
+}
+.table td {
+    position: relative;
+}
+.discarded {
+    background-color: mistyrose;
+}
+
+.modal-header {
+    position: relative;
+}
+.slider-buttons {
+    position: absolute;
+    left: inherit;
+    bottom: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+.slider-button {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.slider-button-active {
+    padding-bottom: 0;
+    height: auto;
+    padding-top: 0;
+}
+.slider-slide {
+    display: none;
+}
+.slider-slide-active {
+    display: block;
+}
+@media(max-width: 720px) {
+    .buttons-row {
+        display: table-cell;
+    }
+}

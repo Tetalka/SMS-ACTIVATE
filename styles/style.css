@@ -1,0 +1,27 @@
+.header {
+    height: 60px;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.login {
+    height: 100%;
+}
+.dropdown-item {
+    cursor: pointer;
+}
+
+.form-select {
+    width: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form .label {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.form .label .form-control {
+    margin-top: 0.5rem;
+}
